@@ -11,12 +11,12 @@ RUN apt-get update \
  && apt-get install -y \
 	adduser \
 	build-essential \
+	cifs-utils \
 	cli-common-dev \
 	curl \
 	debhelper \
 	devscripts \
 	equivs \
-	git \
 	git \
 	git-buildpackage \
 	libbz2-1.0 \
